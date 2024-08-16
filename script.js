@@ -24,7 +24,6 @@ form.addEventListener('submit',function(e){
         e.preventDefault();
     let inputValue = input.value;
     getWeather(inputValue);
-
 })
 
 async function getWeather(place) {  
